@@ -1,6 +1,7 @@
 import React from "react";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { color } from "../contans/color"; 
+import { StyleSheet, Text, View } from 'react-native'
 
 export default function StudyStackScreen() {
   const HomeStack = createNativeStackNavigator();
