@@ -13,22 +13,3 @@ export default function StudyStackScreen() {
     </HomeStack.Navigator>
   );
 }
-
-function HomeScreen({navigation}) {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home! 545</Text>
-      <TouchableHighlight onPress={()=> navigation.navigate('VocaViews')}>
-      <Text>Go</Text>
-      </TouchableHighlight>
-    </View>
-  );
-}
-
-function SettingsScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Settings!</Text>
-    </View>
-  );
-}
