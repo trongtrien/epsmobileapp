@@ -8,8 +8,7 @@
       "distribution": "internal"
     },
     "staging": {
-      "distribution": "internal",
-      "image": "latest"
+      "distribution": "internal"
     },
     "production": {}
   },
