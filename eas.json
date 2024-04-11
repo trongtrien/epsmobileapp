@@ -4,11 +4,10 @@
   },
   "build": {
     "development": {
-      "image": "latest",
       "developmentClient": true,
       "distribution": "internal"
     },
-    "preview": {
+    "staging": {
       "distribution": "internal",
       "image": "latest"
     },
