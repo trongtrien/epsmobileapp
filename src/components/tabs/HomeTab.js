@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { color } from '../../contans/color'
-import HomeScreen from '../../screens/HomeScreen';
+import HomeScreen from '../../screens/Stack/HomeStack';
 import StudyScreen from '../../screens/StudyScreen';
 import DocScreen from '../../screens/DocScreen';
 import CourseScreen from '../../screens/CourseScreen';
